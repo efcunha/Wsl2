@@ -28,15 +28,17 @@ Abra um PowerShell com privilégios administrativos:
 
 Abra um novo PowerShell com privilégios administrativos e instale o Ubuntu LTS, se ainda não o tiver feito. 
 
-Você precisa fornecer quatro argumentos. Se você não especificá-los na linha de comando, 
+Você precisa fornecer quatro argumentos. 
 
-O script perguntará:
+Se você não especificá-los na linha de comando, o script perguntará:
+
 ```
-<wslName>            : forneça um nome para o WSL que será criado (por exemplo, devbox)
-<wslInstallationPath>: o diretório onde o disco vhdx do novo WSL está armazenado
-<nome de usuário>    : o nome do usuário que é usado quando a distribuição WSL é iniciada sem -u
-<installAllSoftware> : Use true | false. Informe se todos os pacotes de software (ver Software Disponível) 
-                       devem ser instalados ou se falso, apenas um sistema totalmente atualizado com o usuário configurado é fornecido. 
+<wslName>            : Forneça um nome para o WSL que será criado (por exemplo, devbox)
+<wslInstallationPath>: O diretório onde o disco vhdx do novo WSL está armazenado
+<nome de usuário>    : O nome do usuário que é usado quando a distribuição WSL é iniciada sem -u
+<installAllSoftware> : Use true|false. 
+                       Informe true se todos os pacotes de software (ver Software Disponível) devem ser instalados.
+                       Ou informe false se for instalar somente um sistema totalmente atualizado com o usuário configurado fornecido. 
 ```
 Por exemplo, o comando pode ser o seguinte:
 ```sh
