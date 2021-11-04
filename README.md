@@ -51,10 +51,11 @@ Se não quiser instalar todos os pacotes durante a criação inicial do WSL, voc
 Eles estão disponíveis aqui ./scripts. Estes estão disponíveis atualmente
 ```
 - Ubuntu Base Package (git, make, unzip) (scripts/install/installBasePackage.sh)
-- OpenVSCode Server (scripts/install/installDocker.sh). Ele é iniciado automaticamente quando você inicia e efetua login no WSL na porta 3000.
+- OpenVSCode Server   (scripts/install/installDocker.sh). 
+  Ele é iniciado automaticamente quando você inicia e efetua login no WSL na porta 3000.
 - docker & compose V2 (scripts/install/installDocker.sh)
-- OpenJDK 11 (scripts/install/installOpenjdk.sh)
-- Apache Maven (scripts/install/installMaven.sh)
-- Gradle (scripts/install/installGradle.sh)
+- OpenJDK 11          (scripts/install/installOpenjdk.sh)
+- Apache Maven        (scripts/install/installMaven.sh)
+- Gradle              (scripts/install/installGradle.sh)
 - n (node manager), Nodejs, npm & Typescript (scripts/install/installNodejs.sh
 ```				   
