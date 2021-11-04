@@ -58,4 +58,4 @@ Eles estão disponíveis aqui ./scripts. Estes estão disponíveis atualmente
 - Apache Maven        (scripts/install/installMaven.sh)
 - Gradle              (scripts/install/installGradle.sh)
 - n (node manager), Nodejs, npm & Typescript (scripts/install/installNodejs.sh
-```				   
+```
