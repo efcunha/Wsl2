@@ -1,4 +1,4 @@
-# Habilitar subsistema Windows para Linux
+# Habilitar Subsistema Windows para Linux
 
 Esta etapa só é necessária se o suporte WSL nunca foi ativado antes em sua máquina Windows
 
