@@ -42,7 +42,7 @@ Se você não especificá-los na linha de comando, o script perguntará:
 ```
 Por exemplo, o comando pode ser o seguinte:
 ```sh
-installUbuntuLTS.ps1 devbox D:\WSL2\devbox kai true
+installUbuntuLTS.ps1 devbox D:\WSL2\devbox <usuário> true
 ```
 # Pacote de Software Disponível
 
