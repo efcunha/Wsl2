@@ -6,7 +6,7 @@ Abra um PowerShell com privilégios administrativos e execute este script para h
 
 Pode ser necessário ajustar a política de segurança (consulte o primeiro comando abaixo), porque os scripts do Powershell não são assinados digitalmente (https: /go.microsoft.com/fwlink/? LinkID = 135170):
 
-# Opcional: Definir segurança para ignorar
+# Opcional: 
 ```sh
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
