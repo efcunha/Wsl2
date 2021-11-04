@@ -4,7 +4,7 @@ Esta etapa só é necessária se o suporte WSL nunca foi ativado antes em sua m�
 
 Abra um PowerShell com privilégios administrativos e execute este script para habilitar a plataforma WSL e VM em sua máquina.
 
-Pode ser necessário ajustar a política de segurança (consulte o primeiro comando abaixo), porque os scripts do Powershell não são assinados digitalmente (https: /go.microsoft.com/fwlink/? LinkID = 135170):
+Pode ser necessário ajustar a política de segurança (consulte o primeiro comando abaixo), porque os scripts do Powershell não são assinados digitalmente (https: /go.microsoft.com/fwlink/?LinkID=135170):
 
 # Opcional: 
 ```sh
