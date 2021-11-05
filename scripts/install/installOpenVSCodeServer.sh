@@ -10,7 +10,7 @@ if [[ ! -d ${HOMEDIR}/.local/openvscode-server/logs ]]; then
   mkdir -p ${HOMEDIR}/.local/openvscode-server/logs
 fi
 
-OPENVSCODE_SERVER_VERSION="v1.60.2"
+OPENVSCODE_SERVER_VERSION="v1.62.0"
 curl -fSL https://github.com/gitpod-io/openvscode-server/releases/download/openvscode-server-${OPENVSCODE_SERVER_VERSION}/openvscode-server-${OPENVSCODE_SERVER_VERSION}-linux-x64.tar.gz  -o ${HOMEDIR}/.local/openvscode-server/openvscode-server-linux-x64.tar.gz
 tar -xzf ${HOMEDIR}/.local/openvscode-server/openvscode-server-linux-x64.tar.gz -C ${HOMEDIR}/.local/openvscode-server
 mv  ${HOMEDIR}/.local/openvscode-server/openvscode-server-v1.60.2-linux-x64 ${HOMEDIR}/.local/openvscode-server/latest
