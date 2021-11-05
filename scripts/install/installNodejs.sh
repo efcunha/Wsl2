@@ -3,7 +3,6 @@
 set -euo pipefail
 DIR_ME=$(realpath $(dirname $0))
 
-# This script is called by any user. It shall succeed without a username parameter
 . ${DIR_ME}/.installUtils.sh
 setUserName ${1-"$(whoami)"}
 
@@ -19,10 +18,8 @@ fi
 copyConfigureScript "configureN.sh"
 modifyBashrc "configureN.sh" ". ${HOMEDIR}/.local/bin/env/configureN.sh"
 
-# source the script, so the following installation can proceed
 . ${HOMEDIR}/.local/bin/env/configureN.sh
 
-# Ensure latest node version is installed
 n latest
 
 if [[ $(which tsc | wc -l) == 0 ]]; then
